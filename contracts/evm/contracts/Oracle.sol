@@ -82,7 +82,7 @@ contract Oracle is Initializable, CurrencyManager, EntryUtils, IOracle {
 
         require(
             sourcesThreshold <= numSourcesAggregated,
-            "Does not meet threshold for aggreagated sources"
+            "Does not meet threshold for aggregated sources"
         );
 
         if (checkpointIndex[pairId] > 0) {

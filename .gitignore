@@ -2,6 +2,7 @@
 **.pem
 
 **.DS_Store
+.vscode/
 
 **_compiled.json
 
